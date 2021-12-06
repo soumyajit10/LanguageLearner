@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="custom_text">
+        <item name="android:textColor">#673ab7</item>
+        <item name="android:textSize">30sp</item>
+        <item name="fontFamily">serif-monospace</item>
+    <item name="android:layout_margin">12dp</item>
+        <item name= "android:layout_centerHorizontal">true</item>
+
+    </style>
+<style name="My_style">
+    <item name="fontFamily">sans-serif</item>
+    <item name="android:textColor">@color/lite_purple</item>
+    <item name="backgroundColor">@color/sea_green</item>
+    <item name="android:textSize">40sp</item>
+</style>
+    <style name="My_styleS">
+        <item name="fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/lite_purple</item>
+        <item name="background">@color/sea_green</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+</resources> 

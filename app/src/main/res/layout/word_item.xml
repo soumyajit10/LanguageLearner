@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:id="@+id/textContainer"
+    >
+
+
+<LinearLayout
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spanish"
+        tools:text="mer"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif"
+        android:textColor="#E74856"
+        android:background="?android:attr/selectableItemBackground"
+
+        />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/english"
+        android:textColor="#F7630C"
+        tools:text="thanku"
+        android:paddingTop="10dp"
+        android:textSize="32sp"
+        android:fontFamily="sans-serif-light"
+        android:background="?android:attr/selectableItemBackground"
+        />
+</LinearLayout>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/playicon2"
+        android:id="@+id/play2"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="6dp"
+
+        />
+
+
+</LinearLayout>
+

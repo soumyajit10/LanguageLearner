@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Language Learner</string>
+    <string name="color">Colour Name</string>
+    <string name="numbers">Numbers</string>
+    <string name="phrases">Phrases</string>
+    <string name="family_members">Family members</string>
+    <string name="spanish_names">Names</string>
+    <string name="family">Family names</string>
+    <string name="cities">City names</string>
+
+</resources>

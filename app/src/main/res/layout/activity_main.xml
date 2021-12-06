@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bcaaa4"
+    >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+                android:layout_weight="1"
+            android:background="#ffa726"
+            android:layout_margin="10dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/color"
+            android:id="@+id/color"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="openColor"
+            style="@style/custom_text"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+                android:layout_weight="1"
+            android:background="#ff3d00"
+            android:layout_margin="10dp"
+            >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/phrases"
+            android:background="?android:attr/selectableItemBackground"
+            style="@style/custom_text"
+            android:onClick="openPhrasesList"
+
+            />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+                android:background="@color/sea_green"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+
+            >
+                <TextView
+
+                    style="@style/custom_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:onClick="openNumberList"
+                    android:text="@string/numbers"
+                    />
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+                android:layout_weight="1"
+            android:background="#66bb6a"
+            android:layout_margin="10dp">
+        <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/custom_text"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:text="@string/family_members"
+                    android:onClick="openFamilyName"
+                    />
+        </FrameLayout>
+
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+                android:layout_weight="1"
+            android:background="#CF6679"
+            android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/custom_text"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/cities"
+            android:onClick="openCityName"/>
+        </FrameLayout>
+
+
+</LinearLayout>
